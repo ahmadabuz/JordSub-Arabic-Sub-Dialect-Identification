@@ -1,0 +1,33 @@
+{
+  "word_filter": "3-50",
+  "total_samples": 8030,
+  "accuracy": {
+    "SVM_Baseline": 0.7552926525529265,
+    "SVM_4gram": 0.7602739726027398,
+    "SVM_Combined_Weights": 0.7920298879202988,
+    "KNN": 0.7085927770859277,
+    "RandomForest": 0.7222914072229141,
+    "MLP": 0.7428393524283935,
+    "SVM_AraBERT": 0.7640099626400996,
+    "SVM_CAMeL-BERT": 0.7833125778331258,
+    "SVM_MARBERT": 0.8032378580323786,
+    "SVM_LLM_Fused": 0.8144458281444583,
+    "SVM_TF-IDF_+_LLM": 0.8275217932752179
+  },
+  "fallahi_f1": {
+    "SVM_Baseline": 0.711943793911007,
+    "SVM_4gram": 0.695852534562212,
+    "SVM_Combined_Weights": 0.7373271889400922,
+    "KNN": 0.6237113402061856,
+    "RandomForest": 0.7191256830601093,
+    "MLP": 0.6857142857142857,
+    "SVM_AraBERT": 0.7281001137656428,
+    "SVM_CAMeL-BERT": 0.7247386759581882,
+    "SVM_MARBERT": 0.7505668934240363,
+    "SVM_LLM_Fused": 0.7703016241299304,
+    "SVM_TF-IDF_+_LLM": 0.7807118254879449
+  },
+  "best_tfidf_accuracy": 0.7920298879202988,
+  "best_llm_model": "TF-IDF + LLM",
+  "best_llm_accuracy": 0.8275217932752179
+}

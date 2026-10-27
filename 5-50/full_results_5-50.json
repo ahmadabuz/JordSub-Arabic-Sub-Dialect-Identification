@@ -1,0 +1,22 @@
+{
+  "word_filter": "5-50",
+  "total_samples": 6172,
+  "accuracy": {
+    "SVM_Baseline": 0.7465587044534413,
+    "SVM_4gram": 0.7668016194331984,
+    "SVM_Combined_Weights": 0.8016194331983806,
+    "KNN": 0.7522267206477733,
+    "RandomForest": 0.7230769230769231,
+    "MLP": 0.7368421052631579
+  },
+  "fallahi_f1": {
+    "SVM_Baseline": 0.47411444141689374,
+    "SVM_4gram": 0.5317919075144508,
+    "SVM_Combined_Weights": 0.5476190476190477,
+    "KNN": 0.43824701195219123,
+    "RandomForest": 0.3829787234042553,
+    "MLP": 0.4376899696048632
+  },
+  "best_accuracy": 0.8016194331983806,
+  "best_fallahi_f1": 0.5476190476190477
+}
