@@ -87,7 +87,3 @@ The embeddings script downloads three models from Hugging Face on its first run 
 - Some regions (such as Aqaba and the northern Badia) are underrepresented
 - Inter-annotator agreement was not measured, due to limited resources
 - The LLM embeddings were used as fixed features, with no fine-tuning, so fine-tuning would likely improve results
-
-## Author
-
-Ahmad Abu Zayyad, Data Science, University of Jordan
